@@ -1,14 +1,14 @@
 context:
   name: gotcha
-  version: "1.0.8"
+  version: "1.0.10"
 
 package:
   name: ${{ name|lower }}
   version: ${{ version }}
 
 source:
-  url: https://github.com/LLNL/GOTCHA/archive/refs/tags/${{ version }}.tar.gz
-  sha256: 267ac6d02916863c8a360b192f1f36e4eaeb8945c73ae7f92116d6f801ad8184
+  url: https://github.com/LLNL/GOTCHA/archive/refs/tags/v${{ version }}.tar.gz
+  sha256: 9113c748ee91a159ab08e2a402e739952c4dc4b4b77cf4d569ca17eb2e360ff8
 
 build:
   number: 0
